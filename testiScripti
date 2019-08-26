@@ -1,0 +1,2 @@
+$user = user@domain.com
+Connect-EXOPSSession -UserPrincipalName $user
