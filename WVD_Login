@@ -1,0 +1,9 @@
+#Allown scripts
+Set-ExecutionPolicy RemoteSigned
+
+#Import and install the Windows Virtual Desktop PowerShell module, Microsoft.Rdinfra.RdPowershell
+Import-module Microsoft.Rdinfra.RdPowershell
+Install-module Microsoft.Rdinfra.RdPowershell
+
+#Sign in to Windows Virtual Desktop
+Add-RdsAccount – DeploymentURL https://rdbroker.wvd.microsoft.com
