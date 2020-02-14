@@ -1,6 +1,2 @@
 # testi
-???
-
-Löysin edit nappulan!
-
-Testing, edit on Github desktop app.
+Welcome to OfficeMGMT PS script gallery!
