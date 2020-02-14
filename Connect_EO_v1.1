@@ -4,6 +4,6 @@ $UserCredential = Get-Credential
 $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
 Import-PSSession $Session -DisableNameChecking
 
-# Your code here #
+Get-Mailbox -Identity master@contoso.com 
 
 Remove-PSSession $Session
